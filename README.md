@@ -10,6 +10,14 @@
 | rating          | rating yang diberikan pada produk |
 | waktu transaksi | waktu user transaksi              |
 
+## Persyaratan
+
+Sebelum memulai, pastikan Anda telah memenuhi persyaratan berikut:
+
+1. Anda telah menginstal Python 3.x.
+2. Anda memiliki akses ke terminal atau antarmuka baris perintah.
+3. Anda telah menginstal Git (opsional, untuk cloning repository).
+
 ## Cara Mendapatkan URL Page Review
 
 1. Buka toko mana yang ingin diambil review nya, kemudian klik bagian penilaian
@@ -18,6 +26,8 @@
 
 ## Setup main.py
 
+- Git Clone -> git clone https://github.com/AmmarulJ/Scraping-Shopee-Produk.git
+- Masuk ke direktori - > cd Scraping-Shopee-Produk
 - Buat virtual environment -> python -m venv env
 - Activate environment -> .\env\Scripts\activate (windows)
 - Install requirement.txt -> pip install -r requirements.txt
